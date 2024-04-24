@@ -1,0 +1,13 @@
+.tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela th, .tabela td{
+    border: 1px solid;
+}
+
+.tabela td{
+    background-color: gray;
+    text-align: left;
+}
