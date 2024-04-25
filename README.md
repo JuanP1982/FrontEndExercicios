@@ -1,4 +1,4 @@
-# FrotEndExercicios
+# FrontEndExercicios
 
 <h2>Grupo 4</h2>
 
