@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#sec01 {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 3px 3px 1px rgb(212, 212, 212);
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+}
