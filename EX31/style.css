@@ -1,0 +1,13 @@
+body {
+    background-color: brown;
+}
+main {
+    text-align: center;
+}
+#sec01 {
+    text-decoration: underline overline;
+    margin: 20px;
+}
+footer {
+    text-align: center;
+}

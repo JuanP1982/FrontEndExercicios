@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(26, 25, 25);
+    text-align: center;
+}
+h2 {
+    color: green;
+}
+
+main {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 3px 3px 1px purple;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+section {
+    background-color: rgb(134, 134, 134);
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}

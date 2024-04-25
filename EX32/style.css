@@ -1,0 +1,41 @@
+body {
+    color: white;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+main {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 200px;
+    margin: auto;
+    max-height: 500px;
+}
+.section-all {
+    text-align: center;
+}
+footer {
+    color: black;
+    text-align: center;
+}
+
+.Butao {
+    margin: 5px;
+    width:200px;
+    height:30px;
+    font-size:20px;
+    color:red;
+    background-color:white;
+    border-style: solid;
+    border-color: rgb(73, 65, 65);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.Butao:hover {
+    background-color: rgb(240, 240, 240);
+}
