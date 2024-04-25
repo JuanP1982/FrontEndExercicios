@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+section {
+    color:greenyellow;
+}
+
+p {
+    color: white;
+}
+
+a {
+    border: 2px dashed grey;
+    color: greenyellow;
+    padding: 7px;
+}
+
