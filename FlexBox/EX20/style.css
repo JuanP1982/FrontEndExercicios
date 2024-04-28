@@ -1,0 +1,67 @@
+.cabecario {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    max-width: 100%;
+    margin: 10px;
+}
+
+.cabecario > header:nth-child(1) {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    height: 50px;
+    margin-right: 40px;
+    background-color: gray; 
+}
+
+.cabecario > header:nth-child(2) {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 1;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.blocos {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    max-width: 100%;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.blocos > div:nth-child(1) {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    height: 450px;
+    margin-right: 40px;
+    background-color: aquamarine;
+}
+
+.blocos > div:nth-child(2) {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    height: 450px;
+    margin-right: 20px;
+    background-color: red;
+}
+
+.blocos > div:nth-child(3) {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    height: 450px;
+    margin-left: 20px;
+    background-color: aquamarine;
+}
+
+.blocos> div:nth-child(4) {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 3;
+    height: 50px;
+    margin-top: 40px;
+    background-color: gray;
+}

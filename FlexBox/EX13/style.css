@@ -1,0 +1,32 @@
+#head1 {
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+#blocos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: calc(100vh - 130px);
+    gap: 10px;
+    margin: 10px;
+}
+#vermelho {
+    flex: 1 1 30%;
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#azul1 {
+    flex: 1;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+
+#azul2 {
+    flex: 1;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
