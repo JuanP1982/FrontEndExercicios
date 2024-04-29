@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    height: calc(100vh - 130px);
+    max-width: 100%;
+}
+
+main{
+background-color: crimson;
+flex: 1;
+}
+
+aside{
+    max-width: 180px;
+    flex: 1;
+    background-color: rgb(19, 7, 83);
+}
+
+.rodape{
+    margin: 10px;
+    height: 100px;
+    background-color: aqua;
+}

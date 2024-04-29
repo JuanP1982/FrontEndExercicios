@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: crimson;
+    height: 200px;
+    margin: 10px;
+    flex: 1;
+}
+
+div{
+        margin: 10px;
+        display: flex;
+        gap: 10px;
+        height: calc(100vh - 450px);
+        max-width: 100%;
+}
+
+div.azul{
+    width: 100vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+footer{
+    background-color: aqua;
+    height: 200px;
+    margin: 10px;
+    flex: 1;
+}
