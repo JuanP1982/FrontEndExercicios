@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    margin: 21px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%; 
+    margin: 21px 0;
+    overflow: hidden; 
+    background-color: transparent;
+}
+
+.hea1 {
+    background-color: rgb(88, 163, 138);
+    height: 110px;
+    margin: 0 0 21px;
+}
+
+.gray1 {
+    background-color: gray;
+    height: 250px;
+    width: 280px;
+    margin: 0 21px 21px 0;
+    align-self: flex-start;
+}
+
+.green1 {
+    background-color: rgb(88, 163, 138);
+    height: 180px;
+    width: 280px;
+    align-self: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 21px 21px 0;
+}
+
+.pink2 {
+    background-color: rgb(228, 110, 130);
+    height: 350px;
+    width: 700px;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.green2 {
+    background-color: rgb(88, 163, 138);
+    margin-top: 21px;
+    height: 80px;
+}
+
+.green3 {
+    background-color:rgb(88, 163, 138);
+    height: 170px;
+    width: 315px;
+    margin-left: 21px;
+}
+
+.gray3 {
+    background-color: gray;
+    height: 260px;
+    width: 315px;
+    margin-top: 21px;
+    margin-left: 21px;
+
+}

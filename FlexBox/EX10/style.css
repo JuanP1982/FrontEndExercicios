@@ -1,0 +1,32 @@
+.hea1 {
+    background-color: rgb(148, 150, 149);
+    height: 110px;
+    margin: 21px 50px 25px;
+}
+
+.hea2 {
+    background-color: rgb(88, 163, 138);
+    height: 55px;
+    margin: 21px 50px 25px;   
+}
+
+.green {
+    background-color: rgb(88, 163, 138);
+    height: 200px;
+    width: 395px;
+}
+
+.pink {
+    background-color: palevioletred;
+    height: 200px;
+    width: 398px;
+}
+
+.flex-container{
+    display: flex;  
+    justify-content: center;
+    flex-flow: row wrap; 
+    gap: 1.5em;
+}
+
+

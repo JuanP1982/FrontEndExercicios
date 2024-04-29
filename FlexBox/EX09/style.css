@@ -1,0 +1,37 @@
+header {
+    background-color: palevioletred;
+    height: 55px;
+    margin: 21px 40px 25px;   
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    gap: 1.5em;
+}
+
+.item1 {
+    height: 604px;
+    width: 843px;
+    margin: 0px 0px 0px 40px;    
+}
+
+.item2 {
+    height: 296px;
+    width: 387px;
+    margin: -604px 40px 0px 5px;
+}
+
+.item3 {
+    height: 284px;
+    width: 387px;
+    margin: 0px 40px -15px 0px;
+}

@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    margin: 21px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%; 
+    margin: 21px 0;
+    overflow: hidden; 
+    background-color:transparent;
+    justify-content: center;
+}
+
+.hea1 {
+    background-color: rgb(88, 163, 138);
+    height: 50px;
+    margin: 0 48px 21px;
+}
+
+.green1 {
+    background-color: rgb(88, 163, 138);
+    height: 140px;
+    width: 390px;
+    margin: 0 21px 0 0;
+    margin-top: 370px;
+    margin-right: -390px;
+}
+
+.pink1 {
+    background-color: rgb(228, 110, 130);
+    height: 350px;
+    width: 800px;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.green2 {
+    background-color: rgb(88, 163, 138);
+    margin-top: 21px;
+    height: 140px;
+    width: 390px;
+    margin-left: 410px;
+}
+
+.green3 {
+    background-color:rgb(88, 163, 138);
+    height: 350px;
+    width: 390px;
+    margin-left: 21px;
+}
+
+.gray1 {
+    background-color: rgb(228, 110, 130);
+    height: 140px;
+    width: 390px;
+    margin-top: 20px;
+    margin-left: 21px;
+
+}

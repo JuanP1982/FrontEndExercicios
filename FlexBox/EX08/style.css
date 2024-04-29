@@ -1,0 +1,17 @@
+header {
+    background-color: rgb(172, 172, 172);
+    height: 55px;
+    margin: 21px 24px 18px 15px;   
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item {
+    height: 195px;
+    width: 307px;
+    margin: 1px 15px 24px 7px;
+}
