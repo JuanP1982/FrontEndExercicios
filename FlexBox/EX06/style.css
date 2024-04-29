@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header1 {
+    height: 50px;
+    background-color: grey;
+    margin: 10px;
+}
+
+#header2 {
+    flex: 1;
+    background-color: crimson;
+    margin: 0 10px;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    height: 200px;
+}
+
+aside {
+    flex: 1;
+    background-color: aqua;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    background-color: grey;
+    height: 100%;
+}
