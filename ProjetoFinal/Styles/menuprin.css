@@ -1,0 +1,241 @@
+/* Caso queira ser reutilizado copiar*/
+body {
+    background-color: white;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display:flex;
+    z-index: 100; 
+    align-items: center;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 15%;
+    max-height: 60%;
+    margin-bottom: 1%;
+}
+
+#imagem {
+    max-width: 30%;
+    max-height: 5%;
+    float: left;
+}
+
+.categoria {
+    color: black;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 6%;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.nomelogo { 
+    color: black;
+    margin-top: 8%;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search1 {
+    margin: 20px;
+}
+
+.foot {
+    display: flex;
+    background-color: black;
+    justify-content: end;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.sobre1 {
+    color: white;
+    justify-content: end;
+    text-align: end;
+    align-items: center;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: larger;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.foot a {
+    text-decoration: none;
+}
+
+/* Ate aqui*/
+
+.items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 150px;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 180px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slider a {
+    text-decoration: none;
+}
+
+.camisas1 {
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.slides {
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 180px;
+    height: 300px;
+}
+
+#radio1:checked ~ .primeiro {
+    margin-left:0;
+}
+
+#radio2:checked ~ .segundo {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .terceiro {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .quarto {
+    margin-left: -75%;
+}
+
+.slider2 {
+    margin: 0 auto;
+    width: 180px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.calcas1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.slides2 {
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+
+.slides2 input {
+    display: none;
+}
+
+.slide2 {
+    width: 25%;
+    position: relative;
+}
+
+#radio5:checked ~ .quinto {
+    margin-left:0;
+}
+
+#radio6:checked ~ .sexto {
+    margin-left: -25%;
+}
+
+#radio7:checked ~ .setimo {
+    margin-left: -50%;
+}
+
+#radio8:checked ~ .oitavo {
+    margin-left: -75%;
+}
+
+.slider3 {
+    margin: 0 auto;
+    width: 180px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.tenis1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.slides3 {
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+
+.slides3 input {
+    display: none;
+}
+
+.slide3 {
+    width: 25%;
+    position: relative;
+}
+
+.slide3 img {
+    width: 180px;
+    height: 300px;
+}
+
+#radio9:checked ~ .nono {
+    margin-left:0;
+}
+
+#radio10:checked ~ .decimo {
+    margin-left: -25%;
+}
+
+#radio11:checked ~ .decimopri {
+    margin-left: -50%;
+}
+
+#radio12:checked ~ .decimoseg {
+    margin-left: -75%;
+}
+
