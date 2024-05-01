@@ -123,6 +123,7 @@ body {
 .slide {
     width: 25%;
     position: relative;
+    transition: 1s;
 }
 
 .slide img {
@@ -172,6 +173,7 @@ body {
 .slide2 {
     width: 25%;
     position: relative;
+    transition: 1s;
 }
 
 #radio5:checked ~ .quinto {
@@ -216,6 +218,7 @@ body {
 .slide3 {
     width: 25%;
     position: relative;
+    transition: 1s;
 }
 
 .slide3 img {
