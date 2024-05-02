@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,6 +8,10 @@
 
 body{
     background-image: url(/Assets/back.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav{
@@ -89,96 +93,99 @@ button:hover{
     margin-top: 5px;
 }
 
+/* 0000000000000000000000 */
 
-.pessoas {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    max-height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px;
-    margin-top: 200px;
-    margin-bottom: 0px;
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #000;
 }
 
-.gabriel {
-    width: 200px;
-    height: 200px;
+section .card .image img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
 }
 
-.gustavo {
-    width: 200px;
-    height: 200px;
+.card{
+    position: relative;
+    border-radius: 20px;
+    background: #fff;
+    margin: 20px 0;
+    width: 230px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
 }
 
-.juan {
-    width: 200px;
-    height: 200px;
+.card:hover{
+   transform: scale(1.03);
+   transition: 0.3s;
 }
 
-.lucas {
-    width: 200px;
-    height: 200px;
+.card::before{
+    content: "";
+    position: absolute;
+    height: 48%;
+    width: 100%;
+    background: #000;
+    border-radius: 20px 20px 0 0;
+   
 }
 
-.nicolas {
-    width: 200px;
-    height: 200px;
-}
-
-.num {
+.card .card-content{
     display: flex;
     flex-direction: column;
-    height: 258px;
-    width: 200px;
-    margin: 10px;
+    padding: 30px;
+    align-items: center;
+    position: relative;
+    z-index: 100;
 }
 
-.githublink {
+.card .media-icons i{
+    margin: 10px 3px;
+    color: #000;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.card .media-icons{
     display: flex;
-    width: 48px;
-    height: 48px; 
-    border-radius: 50%;
-    float: left;
-    margin-top: 5px;
+    justify-content: flex-start;
+    flex-direction: row;
+
 }
 
-.github {
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .nome-funcao{
     display: flex;
-    width: 48px;
-    height: 60px; 
-    margin-top: -6px;
-    float: left;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
 }
 
-.github:hover{
-    filter: brightness(80%);
-    transition: 0.3s;
+.nome-funcao .nome{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
 }
 
-.linkelink {
+.nome-funcao .funcao{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section{
     display: flex;
-    width: 48px;
-    height: 48px;  
-    float: left;
-    border-radius: 50%;
-    margin-top: 5px;
-}
-
-.linkedin {
-    display: flex;
-    width: 48px;
-    height: 48px;
-    float: left;
-    border-radius: 50%;
-    margin-top: 5px;
-}
-
-.linkedin:hover{
-    filter: brightness(80%);
-    transition: 0.3s;
+    gap: 2em;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) */
 }
 
 .foot {
@@ -191,26 +198,4 @@ button:hover{
     bottom: 0;
     left: 0;
     text-align: center;
-}
-.inicio1 {
-    color: white;
-    justify-content: end;
-    text-align: end;
-    align-items: center;
-    display: grid;
-    grid-column: 2;
-    grid-row: 1;
-    font-size: larger;
-    margin-right: 30px;
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.inicio1:hover{
-    color: rgb(129, 129, 129);
-    transition: 0.2s;
-}
-
-.foot a {
-    text-decoration: none;
 }
