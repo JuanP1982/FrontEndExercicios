@@ -117,6 +117,7 @@ button:hover{
     min-width: 250px;
     border: 1px solid rgb(211, 211, 211);
     margin-top: 50px;
+    text-decoration: none;
 }
 
 #products .product h4{

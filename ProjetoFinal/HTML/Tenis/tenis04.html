@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="icon" href="/Assets/icon tab.png" type="image/png">
+</head>
+<body background="/Assets/back.jpg">
+    
+    <header class="cabecario">
+
+        <nav class="nav">
+
+        <div class="logo">
+
+            <a href="/HTML/menuprin.html"><img src="/Assets/nav1.png" id="imagem"></a>
+        
+            
+
+        </div>
+        
+        <div class="categoria" id="camisas"><a href="/HTML/menuprin.html">Início</a></div>
+        <div class="categoria" id="camisas"><a href="/HTML/cat-camisas.html">Camisas</a></div>
+        <div class="categoria" id="calcas"><a href="/HTML/cat-calcas.html">Calças</a></div>
+        <div class="categoria" id="tenis"><a href="/HTML/cat-tenis.html">Calçados</a></div>
+        
+        <form class="search1">
+
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="/Assets/Search_2.png" class="sear" alt=""></button> 
+        </form>
+        <a href="/HTML/carrinho.html" class="shopc"><img src="/Assets/shopping_cart_FILL0_wght400_GRAD0_opsz24.png" alt="carrinho de compras"></a>
+        </nav>
+
+    </header>
+    
+    <section id="productDetails" class="section1">
+        <div class="productImg">
+            <img class="mainImg" src="/Assets/exemplo.png" width="100%" id="mainImg" alt="">
+
+            <div class="smallImgs">
+                <div class="smallImgsCol">
+                    <img src="/Assets/exemplo.png" width="100%" class="iconImg" alt="">
+                </div>
+                <div class="smallImgsCol">
+                    <img src="/Assets/exemplo.png" width="100%" class="iconImg" alt="">
+                </div>
+                <div class="smallImgsCol">
+                    <img src="/Assets/exemplo.png" width="100%" class="iconImg" alt="">
+                </div>
+                <div class="smallImgsCol">
+                    <img src="/Assets/exemplo.png" width="100%" class="iconImg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="singleProductDescription">
+            <p class="nav2">
+                <a class="nav2" href="/HTML/menuprin.html">Início</a><span class="nav2s"> /</span>
+                <a class="nav2" href="">Calçados</a><span class="nav2s"> /</span>
+                <span class="nav2s">Tênis Nike Básico4</span>
+            </p>
+            
+            <h4>Tênis Nike Básico4</h4>
+            <h2>R$3,99</h2>
+
+            <div class="tam">
+                <p class="t">Tamanho</p>
+                <input type="button" value="44" name="tamanho">
+                <input type="button" value="45" name="tamanho">
+                <input type="button" value="46" name="tamanho">
+                <input type="button" value="47" name="tamanho">
+            </div>
+            
+            <div class="qtd">
+                <p class="q">Quantidade</p>
+                <button class="minus">-</button>
+                <input type="number" value="1" min="1" max="10">
+                <button class="plus">+</button>
+            </div>
+           
+            <button>Adicionar ao carrinho</button>
+            <input type="text" placeholder="Digite seu CEP">
+            <button>Calcular Frete</button>
+            <div class="descr">
+            <h4>Detalhes do produto:</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Totam delectus voluptate officia, consequuntur, 
+                quisquam doloremque itaque illo molestiae, necessitatibus labore inventore distinctio 
+                cupiditate tenetur nostrum nemo saepe recusandae exercitationem atque?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2 class="prodRec">Produtos Recomendados</h2>
+        <div class="productContainer">
+         <a class="product" href="/HTML/Camisas/camisa05.html">
+             <img src="/Assets/exemplo.png" alt="">
+             <div class="producDescription">
+                 <span>Adidas</span>
+                 <h5>Camisa Adidas Basica5</h5>
+                 <h4>R$1,99</h4>
+             </div>
+         </a>
+         <a class="product" href="/HTML/Camisas/camisa05.html">
+            <img src="/Assets/exemplo.png" alt="">
+            <div class="producDescription">
+                <span>Adidas</span>
+                <h5>Camisa Adidas Basica5</h5>
+                <h4>R$1,99</h4>
+            </div>
+        </a>
+        <a class="product" href="/HTML/Camisas/camisa05.html">
+            <img src="/Assets/exemplo.png" alt="">
+            <div class="producDescription">
+                <span>Adidas</span>
+                <h5>Camisa Adidas Basica5</h5>
+                <h4>R$1,99</h4>
+            </div>
+        </a>
+        <a class="product" href="/HTML/Camisas/camisa05.html">
+            <img src="/Assets/exemplo.png" alt="">
+            <div class="producDescription">
+                <span>Adidas</span>
+                <h5>Camisa Adidas Basica5</h5>
+                <h4>R$1,99</h4>
+            </div>
+        </a>
+        </div>
+     </section>
+
+    <footer class="section1">
+        <div class="imgFoot">
+           <img src="/Assets/backfoot.png" alt="">
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="/HTML/sobre.html">Contate-nos</a>
+        </div>
+        
+        <div class="colPg">
+            <div class="news">
+                <form>
+                <p>Assine a nossa newsletter e fique por dentro das Novidades</p>
+                <input type="email" name="email" id="" placeholder="Endereço do seu E-mail">
+                <input type="submit" value="Inscreva-se" name="email">
+                </form>
+            </div>
+
+            <h4>Aceitamos</h4>
+            <div class="pagIcons">
+                <img src="/Assets/boleto.png" alt="">
+                <img src="/Assets/card.png" alt="">
+                <img src="/Assets/pix.png" alt="">
+                <img src="/Assets/visa.png" alt="">
+            </div>
+
+        </div>
+        <!-- <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Entrar</a>
+            <a href="#">Ver Carrinho</a>
+            <a href="#">Rastrear Pedido</a>
+            <a href="#">Ajuda</a>
+        </div> -->
+
+
+        <div class="copyright">
+            <p>&copy; Serratec - HTML, CSS e JS - 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="/Scripts/produto.js"></script>
+</body>
+</html>
