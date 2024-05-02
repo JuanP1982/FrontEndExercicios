@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="icon" href="/Assets/icon tab.png" type="image/png">
 </head>
-<body>
+<body background="/Assets/back.jpg">
     
-    <section id="header">
-        <h2>***</h2>
-        <h1>Moda Plus Size</h1>
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="cat-camisas.html">Camisas</a></li>
-                <li><a href="cat-calcas.html">Calças</a></li>
-                <li><a href="cat-tenis">Tênis</a></li>
-                <li><a href="carrinho.html">Carrinho</a></li>
-            </ul>
+    <header class="cabecario">
+  
+        <nav class="nav">
+  
+        <div class="logo">
+  
+            <a href="/HTML/menuprin.html"><img src="/Assets/nav1.png" id="imagem"></a>
+        
+            
+  
         </div>
-    </section>
+        
+        <div class="categoria" id="camisas"><a href="/HTML/menuprin.html">Início</a></div>
+        <div class="categoria" id="camisas"><a href="">Camisas</a></div>
+        <div class="categoria" id="calcas"><a href="">Calças</a></div>
+        <div class="categoria" id="tenis"><a href="">Calçados</a></div>
+        
+        <form class="search1">
+  
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="/Assets/Search_2.png" class="sear" alt=""></button> 
+        </form>
+        <a href="" class="shopc"><img src="/Assets/shopping_cart_FILL0_wght400_GRAD0_opsz24.png" alt="carrinho de compras"></a>
+        </nav>
+  
+    </header>
 
     <section id="pageHeader">
         <h2>Camisas</h2>
@@ -97,42 +111,41 @@
     </section>
     
     <footer class="section1">
-        <div class="col">
-            <h2>***</h2>
-            <h4>Contatos</h4>
-            <p><strong>Endereço: </strong>R. Afrânio Melo Franco, 333 - Quitandinha, Petrópolis-RJ</p>
-            <p><strong>Telefone: </strong>(24)1234-5678</p>
-            <p><strong>Horário: </strong>10:00 - 18:00, Seg à Sex</p>
-            <div class="social">
-                <h4>Siga-nos</h4>
-                <div class="icon">
-                    <p>*Logo WPP*</p>
-                    <p>*Logo IG*</p>
-                    <p>*Logo FB*</p>
-                </div>
-            </div>
+        <div class="imgFoot">
+           <img src="/Assets/backfoot.png" alt="">
         </div>
 
         <div class="col">
             <h4>Sobre</h4>
-            <a href="#">Sobre nós</a>
-            <a href="#">Politica de privacidade</a>
-            <a href="#">Termos e Condições</a>
-            <a href="#">Contate-nos</a>
+            <a href="/HTML/sobre.html">Contate-nos</a>
         </div>
+        
+        <div class="colPg">
+            <div class="news">
+                <form>
+                <p>Assine a nossa newsletter e fique por dentro das Novidades</p>
+                <input type="email" name="email" id="" placeholder="Endereço do seu E-mail">
+                <input type="submit" value="Inscreva-se" name="email">
+                </form>
+            </div>
 
-        <div class="col">
+            <h4>Aceitamos</h4>
+            <div class="pagIcons">
+                <img src="/Assets/boleto.png" alt="">
+                <img src="/Assets/card.png" alt="">
+                <img src="/Assets/pix.png" alt="">
+                <img src="/Assets/visa.png" alt="">
+            </div>
+
+        </div>
+        <!-- <div class="col">
             <h4>Minha Conta</h4>
             <a href="#">Entrar</a>
             <a href="#">Ver Carrinho</a>
             <a href="#">Rastrear Pedido</a>
             <a href="#">Ajuda</a>
-        </div>
+        </div> -->
 
-        <div class="colPg">
-            <h4>Métodos de pagamento</h4>
-            <p>*Logos pagamentos*</p>
-        </div>
 
         <div class="copyright">
             <p>&copy; Serratec - HTML, CSS e JS - 2024</p>
