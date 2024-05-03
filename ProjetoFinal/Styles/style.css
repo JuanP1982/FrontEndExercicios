@@ -41,6 +41,7 @@ body{
     max-height: 130%;
 }
 
+
 .categoria a{
    text-decoration: none;
    outline: none;
@@ -63,20 +64,10 @@ input[type="search"]{
     margin-right: -4px;
 }
 
-.search1 {
-    display: flex;
-    width: 226px;
-    height: 38px;
-}
-
-.carrinhos a {
-    display: flex;
-}
-
 button{
-    float: right;
     border: none;
     padding: 5px 8px;
+    margin-top: -10px;
     cursor: pointer;
     background-color: black;
     color: white;
@@ -84,6 +75,7 @@ button{
 
 button img{
     max-height: 23px;
+    margin-bottom: -6px;
 }
 
 button:hover{
