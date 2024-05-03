@@ -14,6 +14,9 @@ tamanhoBotao.forEach(tamanhoBotao => {
 function adicionarCarrinho(){
 const nome = document.querySelector('#nome').textContent
 
+const imgItem = document.querySelector('#mainImg')
+const imgUrl = imgItem.src
+
 const precoString = document.querySelector('#preco').textContent
 const preco = Number(precoString)
 
@@ -21,13 +24,14 @@ const quantidade = document.querySelector('.qtd input[type="number"]')
 const quantidadeValor = quantidade.value
 
 const produto = {
+    imagem: imgUrl,
     nome: nome,
     preco: preco,
     tamanho: botaoSelecionado,
     quantidade: quantidadeValor,
     total: total = quantidadeValor * preco
 }
-
+console.log(imgUrl)
 const carrinhoString = localStorage.getItem('carrinho')
 const carrinho = JSON.parse(carrinhoString)
 
