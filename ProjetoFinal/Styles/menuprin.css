@@ -375,3 +375,25 @@ footer .copyright {
 #radio12:checked ~ .decimoseg {
     margin-left: -75%;
 }
+
+.camisas1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+.calcas1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.tenis1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
