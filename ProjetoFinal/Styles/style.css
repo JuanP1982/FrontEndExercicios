@@ -31,15 +31,14 @@ body{
 }
 
 .logo {
+    display: flex;
     max-width: 15%;
     max-height: 60%;
-    margin-bottom: 1%;
 }
 
-#imagem {
-    max-width: 120%;
-    max-height: 5%;
-    float: left;
+.logo img {
+    max-width: 150%;
+    max-height: 130%;
 }
 
 .categoria a{
@@ -64,10 +63,20 @@ input[type="search"]{
     margin-right: -4px;
 }
 
+.search1 {
+    display: flex;
+    width: 226px;
+    height: 38px;
+}
+
+.carrinhos a {
+    display: flex;
+}
+
 button{
+    float: right;
     border: none;
     padding: 5px 8px;
-    margin-top: -10px;
     cursor: pointer;
     background-color: black;
     color: white;
@@ -75,7 +84,6 @@ button{
 
 button img{
     max-height: 23px;
-    margin-bottom: -6px;
 }
 
 button:hover{
