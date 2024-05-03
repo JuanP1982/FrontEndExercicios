@@ -94,8 +94,8 @@ button:hover{
 }
 
 
-
-
+/* Retirar cor azul dos links */
+a { color: inherit; } 
 
 /*000000000 posicionamento da Descrição completa do produto 0000000000000*/
 .singleProductDescription{
@@ -103,6 +103,7 @@ button:hover{
 }
 /*000000000 Descrição NAV2 000000000*/
 .singleProductDescription .nav2{   
+    
     color: #999999;
     text-decoration: none;
     font-size: 13px;

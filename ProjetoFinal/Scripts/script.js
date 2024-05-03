@@ -31,7 +31,7 @@ const produto = {
     quantidade: quantidadeValor,
     total: total = quantidadeValor * preco
 }
-console.log(imgUrl)
+console.log(localStorage.length)
 const carrinhoString = localStorage.getItem('carrinho')
 const carrinho = JSON.parse(carrinhoString)
 

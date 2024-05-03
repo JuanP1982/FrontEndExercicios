@@ -227,8 +227,8 @@ footer .copyright {
 
 .slider {
     margin: 0 auto;
-    width: 180px;
-    height: 300px;
+    width: 360px;
+    height: 550px;
     overflow: hidden;
 }
 
@@ -260,8 +260,7 @@ footer .copyright {
 }
 
 .slide img {
-    width: 180px;
-    height: 300px;
+    width: 100%;
 }
 
 #radio1:checked ~ .primeiro {
