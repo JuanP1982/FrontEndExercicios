@@ -10,6 +10,11 @@ body{
     background-image: url(/Assets/back.jpg);
 }
 
+
+
+
+
+/*00000000000 Barra de navegação 0000000000000*/
 .nav{
     position: fixed;
     top: 0;
@@ -26,10 +31,6 @@ body{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.categoria:hover{
-    color: black;
-}
-
 .logo {
     display: flex;
     max-width: 15%;
@@ -41,6 +42,9 @@ body{
     max-height: 130%;
 }
 
+.categoria:hover{
+    color: black;
+}
 
 .categoria a{
    text-decoration: none;
@@ -89,186 +93,26 @@ button:hover{
     margin-top: 5px;
 }
 
-/* 00000000000000000000000000 */
 
 
-#products {
-    text-align: center;
-    margin-top: 150px;
-    background-color: rgba(230, 230, 230, 0.664);
-}
-
-#products .prodRec{
-    font-weight: 750;
-    padding: 10px;
-}
-
-#products .productContainer {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 20px;
-    flex-wrap: wrap;
-    background-color: white;
-    margin-bottom: 100px;
-}
-
-#products .product {
-    width: 23%;
-    min-width: 250px;
-    border: 1px solid rgb(211, 211, 211);
-    margin-top: 50px;
-    text-decoration: none;
-}
-
-#products .product h4{
-    font-weight: 800;
-}
-
-#products .product img {
-    width: 100%;
-    cursor: pointer;
-}
-
-#products .product:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding-top: 20px;
-}
-
-footer .section1{
-    margin-top: 40px;
-}
-
-.section1 .imgFoot img{
-    height: 280px;
-    margin-right: -90px;
-}
 
 
-.section1 .col h4{
-    font-weight: 600;
-    margin-bottom: 5px;
-} 
-
-.section1 .col a{
-    text-decoration: none;
-    outline: none;
-    color: #999999;
-} 
-
-.section1 .col a:hover{
-    color: white;
-    transition: 0.2s;
-}
-
-
-.section1 .colPg .news p{
-    font-weight: 600;
-
-}
-
-
-.section1 .colPg .news input[type="email"]{
-        padding: 10px 130px 10px 8px;
-        border: none;
-        margin-right: -4px;
-        margin-left: 8px;
-        margin-bottom: 40px;
-}
-
-.section1 .colPg .news input[type="submit"]{
-    padding: 8px 30px 10px 25px;
-    margin-left: -2px;
-    border: none;
-    border-left: 1px solid black;
-    text-align: center;
-    cursor: pointer;;
-    font-weight: 900;
-    background-color: white;
-    font-size: 15px;
-}
-
-.section1 .colPg .news input[type="submit"]:hover{
-    background-color: rgb(202, 202, 202);
-    transition: 0.3s;
-}
-
-.section1 .colPg{
-    margin-right: 80px;
-    margin-top: 30px;
-}
-
-.section1 .colPg .ass{
-    margin-right: 30px;
-   
-}
-
-.section1 .colPg h4{
-    margin-bottom: 10px;
-    margin-left: 8px;
-    font-weight: 600;
-}
-
-.section1 .col{
-    margin-top: 30px;
-}
-
-.section1  .pagIcons{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5em;
-    text-align: center;
-    margin-left: 8px;
-}
-
-footer .col {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer .copyright {
-    width: 100%;
-    text-align: center;
-}
-
-#productDetails {
-    display: flex;
-}
-
-#productDetails .singleProductDescription {
-    width: 50%;
-    margin-top: 100px;
-}
-
-#productDetails .productImg {
-    width: 40%;
-    margin-top: 110px;
-}
-
+/*000000000 posicionamento da Descrição completa do produto 0000000000000*/
 .singleProductDescription{
     margin-left: 60px;
 }
-
+/*000000000 Descrição NAV2 000000000*/
 .singleProductDescription .nav2{   
     color: #999999;
     text-decoration: none;
     font-size: 13px;
 }
-
+/*000000000 posicionamento do nome do produto 0000000000000*/
+.singleProductDescription h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 000000000 palavra 3 do nav2 000000000 */
 .singleProductDescription .nav2s{
     color: #999999;
     text-decoration: none;
@@ -279,39 +123,30 @@ footer .copyright {
     color: black;
 }
 
-.singleProductDescription h4{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
+
+
+
+/* 000000000 R$ texto 000000000 */
 .singleProductDescription h2{
     font-weight:800;
     margin-bottom: 20px;
 }
-
+/* 000000000 Preço texto 000000000 */
 .singleProductDescription span{
     font-size: 15px;
 }
 
-.singleProductDescription input[type="number"]{
-    width: 45px;
-    border: 1px solid black;
-    height: 28px; 
-    text-align: center;
-}
 
-.singleProductDescription input[type="text"]{
-    border: 1px solid black;
-    height: 28px;
-    width: 110px;
-    margin-left: 30px;
-}
 
-.smallImgs {
-    display: flex;
-    justify-content: space-between;    
-}
 
+
+/* 000000000 Tamanho texto 000000000 */
+.singleProductDescription .t {
+    font-weight:800;
+    margin-bottom: 7px;
+}
+/* 000000000 Botão tamanhos 000000000 */
 .singleProductDescription .tam input[type="button"]{
     border: 1px solid rgb(212, 212, 212);
     border-radius: 20px;
@@ -334,26 +169,17 @@ footer .copyright {
     color: white;
 }
 
-.singleProductDescription .t {
-    font-weight:800;
-    margin-bottom: 7px;
-}
 
+
+
+
+/* 000000000 Quantidade texto 000000000 */
 .singleProductDescription .q {
     font-weight:800;
     margin-bottom: 10px;
     margin-top: 15px;
 }
-
-.smallImgsCol {
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.smallImgsCol:hover {
-    border: 1px solid black;
-}
-
+/* 000000000 Botões de + e - 000000000 */
 .qtd .minus, .plus{
     margin: -5px;
     margin-left: 10px;
@@ -366,10 +192,13 @@ footer .copyright {
 .qtd .plus{
     margin-left: -5px;
 }
+/* 000000000 INPUT de numero de qtd 000000000 */
 .qtd input[type=number]{
     width: 30px;
     border-radius: 20px;
     height: 30px;
+    border: 1px solid black;
+    text-align: center;
 }
 
 .qtd input[type="number"]::-webkit-inner-spin-button, 
@@ -377,37 +206,232 @@ input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
 /* Estilo para garantir a consistência em navegadores que não suportam o prefixo -webkit- */
 .qtd input[type="number"] {
     -moz-appearance: textfield;
     appearance: textfield;
 }
 
-.productImg:hover{
-    cursor: zoom-in;
-}
 
+
+
+
+/* 000000000 Posicionamento dos botoes frete e add cart 000000000 */
 .singleProductDescription button{
     margin-left: -4px;
 }
+/* 000000000 INPUT do CEP 000000000 */
+.singleProductDescription input[type="text"]{
+    border: 1px solid black;
+    height: 28px;
+    width: 110px;
+    margin-left: 30px;
+}
 
+
+
+
+
+/* 000000000  Descrição border do prod 000000000 */
 .singleProductDescription .descr{
     margin-top: 25px;
     border: 1px solid #d8d8d8;
     border-radius: 10px;
 }
-
+/* 000000000 Descriçao titulo 000000000 */
 .singleProductDescription .descr h4{
     font-weight: 700;
 }
-
+/* 000000000 Descrição texto 000000000 */
 .singleProductDescription .descr h4, p{
     margin-left: 8px;
     padding-bottom: 10px;
-}
-
-.singleProductDescription .descr p{
     font-size: 14px;
 }
 
+
+
+
+
+/*000000000 Espaçamento entre o prod principal e a nav bar 00000000 */
+#productDetails .productImg {
+    width: 40%;
+    margin-top: 110px;
+}
+/* 000000000 Prod principal com 4 embaixo + Descrição 000000000 */
+#productDetails {
+    display: flex;
+}
+
+#productDetails .singleProductDescription {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.productImg:hover{
+    cursor: zoom-in;
+}
+
+/* 000000000 as 4 imagens abaixo da principal 000000000 */
+.smallImgs {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.smallImgsCol {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallImgsCol:hover {
+    border: 1px solid black;
+}
+
+
+
+
+
+/* 000000000 Produtos Recomendados texto 000000000 */
+#products .prodRec{
+    font-weight: 750;
+    padding: 10px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgba(230, 230, 230, 0.664);
+}
+
+/* 000000000 Produtos Recomendados 000000000 */
+#products .productContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+#products .product img {
+    width: 100%;
+    cursor: pointer;
+}
+/* 000000000 R$ 000000000 */
+#products .product h4{
+    font-weight: 800;
+}
+
+#products {
+    text-align: center;
+}
+
+#products .product {
+    width: 23%;
+    min-width: 250px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+#products .product:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.section1 .imgFoot img{
+    height: 280px;
+    margin-right: -90px;
+}
+
+/* 000000000 Coluna Sobre 000000000 */
+.section1 .col h4{
+    font-weight: 600;
+    margin-bottom: 5px;
+} 
+
+.section1 .col{
+    margin-top: 30px;
+}
+
+.section1 .col a{
+    text-decoration: none;
+    outline: none;
+    color: #999999;
+} 
+
+.section1 .col a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+/* 000000000 Newsletter 000000000 */
+.section1 .colPg .news p{
+    font-weight: 600; 
+    font-size: 15.7px; 
+}
+
+.section1 .colPg .news input[type="email"]{
+    padding: 10px 130px 10px 8px;
+    border: none;
+    margin-right: -4px;
+    margin-left: 8px;
+    margin-bottom: 40px;
+}
+
+.section1 .colPg .news input[type="submit"]{
+    padding: 8px 30px 10px 25px;
+    margin-left: -2px;
+    border: none;
+    border-left: 1px solid black;
+    text-align: center;
+    cursor: pointer;;
+    font-weight: 900;
+    background-color: white;
+    font-size: 15px;
+}
+
+.section1 .colPg .news input[type="submit"]:hover{
+    background-color: rgb(202, 202, 202);
+    transition: 0.3s;
+}
+
+/* 000000000 Posicionamento Newsletter e pagamentos 000000000 */
+.section1 .colPg{
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+/* 000000000 Parte dos pagamentos 000000000 */
+.section1 .colPg h4{
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.section1  .pagIcons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5em;
+    text-align: center;
+    margin-left: 8px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 20px;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
