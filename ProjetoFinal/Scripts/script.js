@@ -45,4 +45,5 @@ function adicionarCarrinho(){
     carrinho.push(produto);
     localStorage.setItem("carrinho", JSON.stringify(carrinho));
     idItem++; 
+    window.alert("Item Adicionado ao carrinho!");
 }
