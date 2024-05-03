@@ -1,5 +1,13 @@
-const adicionar = document.querySelector('.adicionar')
-adicionar.addEventListener('click', adicionarCarrinho)
+const adicionar = document.querySelector('.adicionar');
+adicionar.addEventListener('click', adicionarCarrinho);
+
+let idItem = 0; 
+
+
+const ultimoId = JSON.parse(localStorage.getItem('ultimoId'));
+if (ultimoId !== null) {
+    idItem = ultimoId + 1;
+}
 
 let botaoSelecionado = "";
 const tamanhoBotao = document.querySelectorAll('.tam input[type="button"]');
@@ -12,31 +20,29 @@ tamanhoBotao.forEach(tamanhoBotao => {
 });
 
 function adicionarCarrinho(){
-const nome = document.querySelector('#nome').textContent
+    const nome = document.querySelector('#nome').textContent;
 
-const imgItem = document.querySelector('#mainImg')
-const imgUrl = imgItem.src
+    const imgItem = document.querySelector('#mainImg');
+    const imgUrl = imgItem.src;
 
-const precoString = document.querySelector('#preco').textContent
-const preco = Number(precoString)
+    const precoString = document.querySelector('#preco').textContent;
+    const preco = Number(precoString);
 
-const quantidade = document.querySelector('.qtd input[type="number"]')
-const quantidadeValor = quantidade.value
+    const quantidade = document.querySelector('.qtd input[type="number"]');
+    const quantidadeValor = quantidade.value;
 
-const produto = {
-    imagem: imgUrl,
-    nome: nome,
-    preco: preco,
-    tamanho: botaoSelecionado,
-    quantidade: quantidadeValor,
-    total: total = quantidadeValor * preco
-}
-console.log(localStorage.length)
-const carrinhoString = localStorage.getItem('carrinho')
-const carrinho = JSON.parse(carrinhoString)
+    const produto = {
+        id: `item-${idItem}`, 
+        imagem: imgUrl,
+        nome: nome,
+        preco: preco,
+        tamanho: botaoSelecionado,
+        quantidade: quantidadeValor,
+        total: quantidadeValor * preco
+    };
 
-carrinho.push(produto)
-
-localStorage.setItem("carrinho", JSON.stringify(carrinho))
-
+    let carrinho = JSON.parse(localStorage.getItem('carrinho')) || []; 
+    carrinho.push(produto);
+    localStorage.setItem("carrinho", JSON.stringify(carrinho));
+    idItem++; 
 }
