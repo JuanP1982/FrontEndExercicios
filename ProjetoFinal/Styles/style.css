@@ -322,6 +322,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #products {
     text-align: center;
+    margin-top: 60px;
 }
 
 #products .product {
@@ -343,6 +344,18 @@ input[type="number"]::-webkit-outer-spin-button {
 .section1 .imgFoot img{
     height: 280px;
     margin-right: -90px;
+}
+
+#paginas {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#paginas a {
+    text-decoration: none;
+    background-color: black;
+    padding: 20px 15px;
+    color: white;
 }
 
 /* 000000000 Coluna Sobre 000000000 */
