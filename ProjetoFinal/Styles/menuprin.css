@@ -18,6 +18,7 @@ body{
     height: 60px;
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     z-index: 100; 
     align-items: center;
     border-bottom: 1px solid rgb(199, 199, 199);
@@ -214,6 +215,7 @@ footer .copyright {
 
 .items {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -373,4 +375,3 @@ footer .copyright {
 #radio12:checked ~ .decimoseg {
     margin-left: -75%;
 }
-
