@@ -1,1 +1,1 @@
-localStorage.setItem("carrinho", JSON.stringify([]))
+localStorage.setItem("carrinho", JSON.stringify([]));

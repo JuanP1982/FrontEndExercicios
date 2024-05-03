@@ -3,8 +3,35 @@
     padding: 0;
 }
 
+div{
+    display: inline-flex;
+}
+
 div.corpo {
+    max-width: 80%;
+    text-align: center;
+    margin-top: 100px;
     border: 1px solid purple;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    align-content: end;
+    justify-content: center;
+}
+
+.img{
+    align-self: center;
+    width: 50%;
+    height: 50%;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;
 }
