@@ -6,6 +6,8 @@
     <title>Menu principal</title>
     <link rel="stylesheet" href="/Styles/menuprin.css">
     <link rel="stylesheet" href="/Styles/carrinho.css">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="/Assets/icon tab.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,6 +46,130 @@
         </nav>
   
     </header>
+    
+  <section id="carrinho" class="section1">
+    <table width="100%">
+      <h1>Itens no Carrinho</h1>
+      <thead>
+        <tr>
+          <td>Remover</td>
+          <td>Imagem</td>
+          <td>Produto</td>
+          <td>Preço</td>
+          <td>Quantidade</td>
+          <td>Subtotal</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><i class="fa fa-trash"></i></a></td>
+          <td><img src="/Assets/camisas/camisa1.jpg" alt=""></td>
+          <td>CAMISETA OVERSIZED - GLAMOUR</td>
+          <td>R$<span>150.00</span></td>
+          <td><input type="number" value="1"></td>
+          <td>R$<span>150.00</span></td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fa fa-trash"></i></a></td>
+          <td><img src="/Assets/camisas/camisa2.jpg" alt=""></td>
+          <td>CAMISETA OVERSIZED - ESSENTIAL</td>
+          <td>R$<span>199.00</span></td>
+          <td><input type="number" value="1"></td>
+          <td>R$<span>199.00</span></td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fa fa-trash"></i></a></td>
+          <td><img src="/Assets/camisas/camisa3.jpg" alt=""></td>
+          <td>CAMISETA - COMP ET STONE</td>
+          <td>R$<span>120.00</span></td>
+          <td><input type="number" value="1"></td>
+          <td>R$<span>120.00</span></td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fa fa-trash"></i></a></td>
+          <td><img src="/Assets/camisas/camisa4.jpg" alt=""></td>
+          <td>CAMISETA - HAVE FAITH</td>
+          <td>R$<span>129.99</span></td>
+          <td><input type="number" value="1"></td>
+          <td>R$<span>129.99</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>    
+
+  <section id="carrinhoAdd" class="section1">
+    <div id="cupom">
+      <h3>Cupons</h3>
+      <div>
+        <input type="text" placeholder="Digite seu código promocional">
+        <button>Aplicar Cupom</button>
+      </div>
+    </div>
+    <div id="subtotal">
+      <h3>Total do carrinho</h3>
+      <table>
+        <tr>
+          <td>Subtotal do carrinho</td>
+          <td>R$<span>598.99</span></td>
+        </tr>
+        <tr>
+          <td>Frete</td>
+          <td>Grátis</td>
+        </tr>
+        <tr>
+          <td>Desconto</td>
+          <td>R$<span>8.99</span></td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>R$<span>590.00</span></td>
+        </tr>
+      </table>
+      <button>Finalizar Compra</button>
+    </div>
+  </section>
+
+  <footer class="section1">
+    <div class="imgFoot">
+       <img src="/Assets/backfoot.png" alt="">
+    </div>
+
+    <div class="col">
+        <h4>Sobre</h4>
+        <a href="/HTML/sobre.html">Contate-nos</a>
+    </div>
+    
+    <div class="colPg">
+        <div class="news">
+            <form>
+            <p>Assine a nossa newsletter e fique por dentro das Novidades</p>
+            <input type="email" name="email" id="" placeholder="Endereço do seu E-mail">
+            <input type="submit" value="Inscreva-se" name="email">
+            </form>
+        </div>
+
+        <h4>Aceitamos</h4>
+        <div class="pagIcons">
+            <img src="/Assets/boleto.png" alt="">
+            <img src="/Assets/card.png" alt="">
+            <img src="/Assets/pix.png" alt="">
+            <img src="/Assets/visa.png" alt="">
+        </div>
+
+    </div>
+    <!-- <div class="col">
+        <h4>Minha Conta</h4>
+        <a href="#">Entrar</a>
+        <a href="#">Ver Carrinho</a>
+        <a href="#">Rastrear Pedido</a>
+        <a href="#">Ajuda</a>
+    </div> -->
+
+
+    <div class="copyright">
+        <p>&copy; Serratec - HTML, CSS e JS - 2024</p>
+    </div>
+</footer>
     <script src="/Scripts/pesquisa.js"></script>
   <script src="/Scripts/recuperar-pedido.js"></script>
  </body>
