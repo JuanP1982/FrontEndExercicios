@@ -36,7 +36,7 @@ const carrinhoString = localStorage.getItem('carrinho')
 const carrinho = JSON.parse(carrinhoString)
 
 carrinho.push(produto)
+
 localStorage.setItem("carrinho", JSON.stringify(carrinho))
-console.log(carrinho)
-console.log(localStorage)
+
 }
